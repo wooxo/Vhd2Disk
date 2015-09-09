@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Vhd2disk">
+</Property><Property Name="Fichier solution" Value="J:\Vhd2disk\Vhd2disk.sln">
+</Property><Property Name="Fichier d'options utilisateur" Value="J:\Vhd2disk\Vhd2disk.suo">
+</Property><Property Name="Date" Value="mardi 28 avril 2015">
+</Property><Property Name="Time" Value="10:38">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Vhd2disk.sln" Description="Fichier correctement sauvegardé en tant que J:\Vhd2disk\Vhd2disk.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Vhd2disk.suo" Description="Fichier correctement sauvegardé en tant que J:\Vhd2disk\Vhd2disk.suo.old">
+</Event><Event ErrorLevel="0" Project="Vhd2disk" Source="Vhd2disk\Vhd2disk.vcproj" Description="Converting project file 'J:\Vhd2disk\Vhd2disk\Vhd2disk.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Vhd2disk" Source="Vhd2disk\Vhd2disk.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Vhd2disk" Source="Vhd2disk\Vhd2disk.vcproj" Description="Done converting to new project file 'J:\Vhd2disk\Vhd2disk\Vhd2disk.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Vhd2disk" Source="Vhd2disk\Vhd2disk.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Vhd2disk.sln" Description="Solution correctement convertie">
+</Event><Event ErrorLevel="3" Project="" Source="Vhd2disk.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,180 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Français (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN_DIAG DIALOGEX 0, 0, 267, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Vhd2disk - Wooxo: www.wooxo.com"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_VHD_FILE,9,51,237,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_VHD,247,50,14,14
+    LTEXT           "VHD File name:",IDC_STATIC,11,42,49,8
+    COMBOBOX        IDC_COMBO1,9,136,196,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Target drive:",IDC_STATIC,11,126,43,8
+    PUSHBUTTON      "Vhd to disk",IDC_BUTTON_START,209,135,52,14
+    LTEXT           "Vhd2disk v0.2",IDC_STATIC_NAME,10,6,96,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,166,267,1
+    LTEXT           "Status:",IDC_STATIC,5,170,24,8
+    LTEXT           "",IDC_STATIC_STATUS,33,170,165,8
+    CONTROL         "",IDC_PROGRESS_DUMP,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,0,151,265,12
+    LTEXT           "Copyright © 2011-2012 Bruno Roques",IDC_STATIC,9,16,216,8
+    LTEXT           "Wooxo - www.wooxo.com",IDC_STATIC_URL,10,26,156,8
+    CONTROL         "",IDC_LIST_VOLUME,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,9,75,251,49
+    LTEXT           "Volumes to include:",IDC_STATIC,11,65,62,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAIN_DIAG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 174
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_V2D            ICON                    "v2d.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,0,0
+ PRODUCTVERSION 0,2,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "CompanyName", "Wooxo - wwww.wooxo.com"
+            VALUE "FileDescription", "VHD to disk converter"
+            VALUE "FileVersion", "0, 2, 0, 0"
+            VALUE "InternalName", "Wooxo VHD to Disk converter"
+            VALUE "LegalCopyright", "Copyright © 2011-2012 Bruno Roques"
+            VALUE "OriginalFilename", "Vhd2disk"
+            VALUE "ProductName", "Vhd2disk"
+            VALUE "ProductVersion", "0, 2, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Vhd2disk"
+    IDC_VHD2DISK            "VHD2DISK"
+END
+
+#endif    // Français (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
